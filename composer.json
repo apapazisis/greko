@@ -1,0 +1,19 @@
+{
+    "name": "Greko PHP Framework",
+    "description": "The Greko PHP Framework.",
+    "keywords": ["framework", "Greko"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.2",
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
